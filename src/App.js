@@ -8,9 +8,9 @@ function App() {
  
   function plus(e) { 
     e.preventDefault(); 
-    // const inputVal = inputRef.current.value; 
-    // const newResult = result + Number(inputVal); 
-    // setResult(newResult); 
+    const inputVal = inputRef.current.value; 
+    const newResult = result + Number(inputVal); 
+    setResult(newResult); 
     setResult((result) => result + Number(inputRef.current.value)); 
   } 
  
